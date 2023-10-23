@@ -48,7 +48,7 @@ Now let's create a simple text file and add something to it. This will cause a c
 When a line has been added to a file since the last commit, it will appear in green. When a line has been removed, it will appear as red. This `diff` view shows us how a file has changed. In this case, we will have just one green line to indicate that text has been added.
 
 - `add` - _Stages_ a file, meaning that it will be included in our next commit.
-- `commit` - Save the _staged_ changes that we created with `add` into a new commit. This then becomes a snapshot of the state of our come at a particular time.
+- `commit` - Save the _staged_ changes that we created with `add` into a new commit. This then becomes a snapshot of the state of our code at a particular time.
 
 ---
 # Git Log

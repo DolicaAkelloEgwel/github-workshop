@@ -69,43 +69,73 @@ If you're on Mac you can use `touch` to create an empty file.
 ---
 # History
 
+![h:400 center](./pictures/history.png)
+
 Take a look at the History tab. You can now see the commit with its message. The right hand pane will show us what was changed in this commit.
 
 ---
-# Diff View - Continued
+# Changing / Removing Lines
 
-Now delete the _second_ line of your file and see what happens in GitHub Desktop.
-
----
-# How often to commit?
-
-When it _feels right_...
+Now change the _second_ line of your file and see what happens in the GitHub Desktop changes tab.
 
 ---
-# Git Log
 
-Now we can take a look at our History tab and see the change.
-
-- `amend` - Sometimes you make mistakes in your commit message. This allows us to fix them.
-- `push` - Allows us to upload commits to our repository on GitHub.
+![h:600 center](./pictures/line-change.png)
 
 ---
-# Committing Multiple Files
+# Resetting a Change
 
-- Sometimes multiple files have changes. This can be seen when you use the `git status` command, or by looking at the changes menu in GitHub Desktop.
+- You might change a file, then realise that this isn't actually a change you wanted.
+- If you haven't commited yet then you can correct this by resetting the file.
+- In GitHub Desktop this is done by right clicking the file in the Changes tab and clicking on "Discard changes..."
+- This will take the file back to the state it was in in the most recent commit.
+
+---
+# Amending Commits
+
+- Sometimes we make a slight typo in our commit messages or realise it's missing something that it ought to say.
+- In this case, you'd _amend_ your commit.
+- In GitHub Desktop this is done by right clicking the commit in the History tab and then changing your commit message.
+- Ideally you want to do this _before_ pushing the code. (I will talk about pushing code in a bit...)
+
+---
+# So how often to commit?
+
+- When it _feels right_...
+- When you've done a 10-15 minute "chunk" of work.
+- When you have something that may doesn't fully solve the problem you're working on, but is a "complete" step towards solving that problem.
+
+Smaller commits make it easier to isolate problems.
+
+---
+# Handling Changes in Multiple Files
+
+- Sometimes multiple files have changes. This can be seen when you use the `git status` command, or by looking at the Changes menu in GitHub Desktop.
 - Git allows us to choose which files will be in a single commit. This allows us to keep things more organised.
 
 ---
 # .gitignore
 
-- A .gitignore file let's Git know that you don't want a certain file to be tracked with version control
+- A .gitignore file let's Git know that you don't want a certain file to be tracked with version control.
+- In GitHub Desktop we can right click a file and add it to .gitignore.
+- It will no longer appear in the changes tab unless it's removed from .gitignore again.
+- The .gitingore file is also something you will want to track with version control.
+
+---
+# Overview
+
+![h:400 center](./pictures/command-diagram.svg)
+
+If you understand this, then you understand Git.
 
 ---
 # Exercise: Merge Conflicts
 
+- This will be a group exercise.
+
 ---
 
-# Cool Git-Related Things
+# Extra: Cool Git Stuff
 
 ---
 # The magic of `bisect`
@@ -120,10 +150,13 @@ Now we can take a look at our History tab and see the change.
 
 ---
 #  `lazygit`
+
+- A terminal UI for using Git.
+- Nice if you think using a mouse takes time...
+
 ---
-# Keeping track of your essays with Git and LaTeX
+# Keeping track of documents with Git
 
 ![h:480 center](./pictures/dissertation-commit-log.PNG)
 
-BTW these slides also live in GitHub...
 

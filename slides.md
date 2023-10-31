@@ -66,7 +66,6 @@ Now to take a look at the folder we can go to the top menu and click Repository 
 img[alt~="center"] {
   display: block;
   margin: 0 auto;
-}
 </style>
 
 
@@ -182,5 +181,4 @@ If you understand this, then you understand Git.
 # Keeping track of documents with Git
 
 ![h:480 center](./pictures/dissertation-commit-log.PNG)
-
 

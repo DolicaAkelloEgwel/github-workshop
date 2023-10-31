@@ -18,18 +18,26 @@ img[alt~="center"] {
 - A better kind of backup
 - Review history of your changes
 - Restore older code versions
-- Undo mistakes
+- Like an unlimited undo
 - Nothing commited to version control can be lost _unless you make it happen_
 - Saves you emailing files back and forth if you are working with others
-- Different people can make changes to the same code
+- Different people can make changes to the same code in parallel
 
 <!-- Even if you're the only one doing the coding, there are still benefits to using Version Control. -->
+
+---
+![h:620 center](./pictures/git-colab-1.svg)
+
+---
+![h:620 center](./pictures/git-colab-2.svg)
+
+<!-- It's also possible but sometimes tricky to mamange conflicts. -->
 
 ---
 
 ![h:620 center](./pictures/final-doc.png)
 
-...Or to save yourself from this.
+<!-- Another advantage of Git is saving yourself from things like this... -->
 
 ---
 # What is Git and GitHub?
@@ -39,41 +47,43 @@ GitHub: Hosting service for Git repositories.
 GitHub Desktop: Like Git but has a GUI.
 
 ---
-# Sign In
+# Creating a GitHub Account
 
-
+1. Go to github.com and click on "Sign up" in the top-right
+2. Follow the instructions to create an account
+3. Verify your email adddress with GitHub
+4. Configure 2FA
 
 ---
 # Creating a Repo
 
-* Go to GitHub.com and make sure you're logged in
-* Click on the green button that says New
-* Give the repo a name and a description
-* Click on Create Repository
+1. In the top-menu go to File and then click "New repository..."
+2. Give the repository a name and a description
+3. Set a local path for the repository
 
----
-# Configure GitHub Desktop
-
-Now that we've created a repo we can use GitHub Desktop to open it.
-
-1. Click "Set up in Desktop"
-2. Choose a local path for the repo
-3. Click "Clone"
-
-Now to take a look at the folder we can go to the top menu and click Repository > Show in Finder / Explorer.
-
-![bg right](./pictures/setup-in-desktop.PNG)
+<!-- A demo goes here. -->
 
 ---
 # Creating a Text File
 
 Now let's create a simple text file and add two lines of text to it. This will cause a change to appear in GitHub Desktop.
 
-If you're on Mac you can use `touch` to create an empty file.
+1. On the top-level menu go to Repository > Show in Explorer / Finder
+2. Create a text file and add two lines of random text to it
+
+If you're on Mac you can use `touch` to create an empty file. Then `echo "blahblahblah" >> filename` should add something to the file.
 
 ---
 
 ![h:580 center](./pictures/diff-add.png)
+
+<!-- 
+
+Now you can see that a change in our working directory has been detected in GitHub Desktop. 
+
+Could do a comparison here with Git command line as well?
+
+-->
 
 ---
 # Commiting Files

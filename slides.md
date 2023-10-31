@@ -62,13 +62,6 @@ Now that we've created a repo we can use GitHub Desktop to open it.
 
 Now to take a look at the folder we can go to the top menu and click Repository > Show in Finder / Explorer.
 
-<style>
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
-</style>
-
-
 ![bg right](./pictures/setup-in-desktop.PNG)
 
 ---
@@ -131,17 +124,16 @@ Now change the _second_ line of your file and see what happens in the GitHub Des
 Smaller commits make it easier to isolate problems.
 
 ---
-# Handling Changes in Multiple Files
+# Pushing Changes
 
-- Sometimes multiple files have changes. This can be seen when you use the `git status` command, or by looking at the Changes menu in GitHub Desktop.
-- Git allows us to choose which files will be in a single commit. This allows us to keep things more organised.
+Now the code can be _pushed_ to GitHub.
 
 ---
 # .gitignore
 
 - A .gitignore file let's Git know that you don't want a certain file to be tracked with version control.
 - In GitHub Desktop we can right click a file and add it to .gitignore.
-- It will no longer appear in the changes tab unless it's removed from .gitignore again.
+- It will no longer appear in the Changes tab unless it's removed from .gitignore.
 - The .gitingore file is also something you will want to track with version control.
 
 ---
@@ -149,12 +141,7 @@ Smaller commits make it easier to isolate problems.
 
 ![h:400 center](./pictures/command-diagram.svg)
 
-If you understand this, then you understand Git.
-
----
-# Exercise: Merge Conflicts
-
-- This will be a group exercise.
+If you understand this, then you understand Git and GitHub.
 
 ---
 
@@ -180,5 +167,11 @@ If you understand this, then you understand Git.
 ---
 # Keeping track of documents with Git
 
+![h:480 center](./pictures/latex-example.png)
+
+LaTeX is comfy.
+
+---
 ![h:480 center](./pictures/dissertation-commit-log.PNG)
+
 

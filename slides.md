@@ -3,29 +3,53 @@ marp: true
 ---
 # Introduction to GitHub and Version Control
 
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
+![h:500 center](./pictures/computer-nerd.png)
+
 ---
-# What is Version Control?
+# Why Use Version Control?
 
 - A better kind of backup
 - Review history of your changes
 - Restore older code versions
 - Undo mistakes
-- Maintain several versions of your code at the same time
+- Nothing commited to version control can be lost _unless you make it happen_
+- Saves you emailing files back and forth if you are working with others
+- Different people can make changes to the same code
+
+<!-- Even if you're the only one doing the coding, there are still benefits to using Version Control. -->
+
+---
+
+![h:620 center](./pictures/final-doc.png)
+
+...Or to save yourself from this.
 
 ---
 # What is Git and GitHub?
 
-Git: Version control tool to manage code history
-GitHub: Hosting service for Git repositories
+Git: Version control tool to manage code history. Runs on the command line.
+GitHub: Hosting service for Git repositories.
+GitHub Desktop: Like Git but has a GUI.
+
+---
+# Sign In
+
+
 
 ---
 # Creating a Repo
 
-1. Go to GitHub.com and make sure you're logged in
-2. Click on the green button that says New
-3. Give the repo a name and a description
-4. Make the repo public
-5. Click on Create Repository
+* Go to GitHub.com and make sure you're logged in
+* Click on the green button that says New
+* Give the repo a name and a description
+* Click on Create Repository
 
 ---
 # Configure GitHub Desktop

@@ -71,11 +71,15 @@ Now let's create a simple text file and add two lines of text to it. This will c
 1. On the top-level menu go to Repository > Show in Explorer / Finder
 2. Create a text file and add two lines of random text to it
 
-If you're on Mac you can use `touch` to create an empty file. Then `echo "blahblahblah" >> filename` should add something to the file.
+If you're on Mac you can use `touch` to create an empty file. Then `echo "blahblahblah" >> filename` should add something to the file. Do that a second time and you'll have a file with two lines of text in it.
 
 ---
 
-![h:580 center](./pictures/diff-add.png)
+# Changes Tab
+
+![h:520 center](./pictures/diff-add.png)
+
+The Changes tab shows us what has changed in our files since the most recent commit.
 
 <!-- 
 
@@ -88,8 +92,10 @@ Could do a comparison here with Git command line as well?
 ---
 # Commiting Files
 
+Once we've made some changes that we want to record, we can make a _commit_.
+
 1. Tick the checkbox next to the file you want to include in the next commit. This _stages_ the file.
-2. Give a commit message. This should describe the changes that you have made to the file(s). You can also provide an optional description.
+2. Give the commit a message. This should describe the changes that you have made to the file(s). You can also provide an optional description.
 3. Click the blue Commit button. This will now create a new "snapshot" of our repository.
 
 ---
@@ -102,11 +108,15 @@ Take a look at the History tab. You can now see the commit with its message. The
 ---
 # Changing / Removing Lines
 
-Now change the _second_ line of your file and see what happens in the GitHub Desktop changes tab.
+Now change the _second_ line of your file and see what happens in the Changes tab.
+
+<!-- Give people a moment to do this before going to the next slide. -->
 
 ---
 
 ![h:600 center](./pictures/line-change.png)
+
+<!-- Now we can see that a red line has appeared to indicate that something was removed, while a green line indicates that something was added. -->
 
 ---
 # Resetting a Change
@@ -122,16 +132,18 @@ Now change the _second_ line of your file and see what happens in the GitHub Des
 - Sometimes we make a slight typo in our commit messages or realise it's missing something that it ought to say.
 - In this case, you'd _amend_ your commit.
 - In GitHub Desktop this is done by right clicking the commit in the History tab and then changing your commit message.
-- Ideally you want to do this _before_ pushing the code. (I will talk about pushing code in a bit...)
+- Ideally you want to do this _before_ pushing the code to GitHub. (I will talk about pushing code in a bit...)
 
 ---
 # So how often to commit?
 
 - When it _feels right_...
 - When you've done a 10-15 minute "chunk" of work.
-- When you have something that may doesn't fully solve the problem you're working on, but is a "complete" step towards solving that problem.
+- When you have something that may doesn't fully solve the problem you're working on, but is at least a "complete" step towards solving that problem.
 
 Smaller commits make it easier to isolate problems.
+
+<!-- It's hard to define what exactly that point is, but it will make sense with more experience. -->
 
 ---
 # Pushing Changes

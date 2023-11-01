@@ -44,7 +44,7 @@ img[alt~="center"] {
 
 Git: Version control tool to manage code history. Runs on the command line.
 GitHub: Hosting service for Git repositories.
-GitHub Desktop: Like Git but has a GUI.
+GitHub Desktop: A GUI for using Git commands.
 
 ---
 # Creating a GitHub Account
@@ -57,9 +57,10 @@ GitHub Desktop: Like Git but has a GUI.
 ---
 # Creating a Repo
 
-1. In the top-menu go to File and then click "New repository..."
-2. Give the repository a name and a description
-3. Set a local path for the repository
+1. Open GitHub Desktop
+2. In the top-menu go to File and then click "New repository..."
+3. Give the repository a name and a description
+4. Set a local path for the repository
 
 <!-- A demo goes here. -->
 
@@ -71,7 +72,7 @@ Now let's create a simple text file and add two lines of text to it. This will c
 1. On the top-level menu go to Repository > Show in Explorer / Finder
 2. Create a text file and add two lines of random text to it
 
-If you're on Mac you can use `touch` to create an empty file. Then `echo "blahblahblah" >> filename` should add something to the file. Do that a second time and you'll have a file with two lines of text in it.
+If you're on Mac you can use `touch a-text-file` to create an empty file. Then `echo "blahblahblah" >> a-text-file` should add something to the file. Do that a second time and you'll have a file with two lines of text in it.
 
 ---
 
@@ -90,7 +91,7 @@ Could do a comparison here with Git command line as well?
 -->
 
 ---
-# Commiting Files
+# Staging and Commiting Files
 
 Once we've made some changes that we want to record, we can make a _commit_.
 
@@ -146,9 +147,12 @@ Smaller commits make it easier to isolate problems.
 <!-- It's hard to define what exactly that point is, but it will make sense with more experience. -->
 
 ---
-# Pushing Changes
+# Publishing a Repo
 
-Now the code can be _pushed_ to GitHub.
+1. Publishing allows us to have a copy of the repo on GitHub.
+2. 
+
+<!-- Demo goes here. -->
 
 ---
 # .gitignore
@@ -163,7 +167,7 @@ Now the code can be _pushed_ to GitHub.
 
 ![h:400 center](./pictures/command-diagram.svg)
 
-If you understand this, then you understand Git and GitHub.
+If you understand this, then you pretty much understand Git :)
 
 ---
 
@@ -175,7 +179,7 @@ If you understand this, then you understand Git and GitHub.
 `git bisect` is a handy command that can be a life-saver.
 
 ---
-# Extra Extra: `pre-commit`
+# Keeping code tidy with `pre-commit`
 
 - `pre-commit` is a tool that ensures certain checks on your file pass before a commit is accepted.
 - This could be a linting tool 
@@ -194,6 +198,8 @@ If you understand this, then you understand Git and GitHub.
 LaTeX is comfy.
 
 ---
+# Commit History for My Dissertation :)
+
 ![h:480 center](./pictures/dissertation-commit-log.PNG)
 
 

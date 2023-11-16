@@ -13,12 +13,17 @@ img[alt~="center"] {
 ![h:500 center](./pictures/computer-nerd.png)
 
 ---
+
+![h:620 center](./pictures/final-doc.png)
+
+<!-- Another advantage of Git is saving yourself from things like this... -->
+
+---
 # Why Use Version Control?
 
 - A better kind of backup
 - Review history of your changes
-- Restore older code versions
-- Like an unlimited undo
+- Restore older code versions, like an unlimited undo
 - Nothing commited to version control can be lost _unless you make it happen_
 - Saves you emailing files back and forth if you are working with others
 - Different people can make changes to the same code in parallel
@@ -26,25 +31,17 @@ img[alt~="center"] {
 <!-- Even if you're the only one doing the coding, there are still benefits to using Version Control. -->
 
 ---
-![h:620 center](./pictures/git-colab-1.svg)
-
----
-![h:620 center](./pictures/git-colab-2.svg)
-
-<!-- It's also possible but sometimes tricky to mamange conflicts. -->
-
----
-
-![h:620 center](./pictures/final-doc.png)
-
-<!-- Another advantage of Git is saving yourself from things like this... -->
-
----
 # What is Git and GitHub?
 
 Git: Version control tool to manage code history. Runs on the command line.
 GitHub: Hosting service for Git repositories.
 GitHub Desktop: A GUI for using Git commands.
+
+There are alternatives to Git and there are alternatives to GitHub.
+
+---
+
+![h:520 center](./pictures/github-git-difference.png)
 
 ---
 # Creating a GitHub Account
@@ -102,7 +99,7 @@ Once we've made some changes that we want to record, we can make a _commit_.
 ---
 # History
 
-![h:400 center](./pictures/history.png)
+<!-- ![h:400 center](./pictures/history.png) -->
 
 Take a look at the History tab. You can now see the commit with its message. The right hand pane will show us what was changed in this commit.
 
@@ -113,9 +110,7 @@ Now change the _second_ line of your file and see what happens in the Changes ta
 
 <!-- Give people a moment to do this before going to the next slide. -->
 
----
-
-![h:600 center](./pictures/line-change.png)
+<!-- ![h:600 center](./pictures/line-change.png) -->
 
 <!-- Now we can see that a red line has appeared to indicate that something was removed, while a green line indicates that something was added. -->
 
@@ -149,18 +144,25 @@ Smaller commits make it easier to isolate problems.
 ---
 # Publishing a Repo
 
-1. Publishing allows us to have a copy of the repo on GitHub.
-2. 
+- Publishing allows us to have a copy of the repo on GitHub.
+- You can hit the publish button to do this.
+- Now take a look at your GitHub profile and see the repository that's been added.
 
 <!-- Demo goes here. -->
 
 ---
+# Cloneing
+
+---
 # .gitignore
 
-- A .gitignore file let's Git know that you don't want a certain file to be tracked with version control.
+- A .gitignore file lets Git know that you don't want a certain file to be tracked with version control.
 - In GitHub Desktop we can right click a file and add it to .gitignore.
 - It will no longer appear in the Changes tab unless it's removed from .gitignore.
 - The .gitingore file is also something you will want to track with version control.
+---
+# Branching
+
 
 ---
 # Overview
@@ -173,22 +175,24 @@ If you understand this, then you pretty much understand Git :)
 
 # Extra: Cool Git Stuff
 
----
-# The magic of `bisect`
-
-`git bisect` is a handy command that can be a life-saver.
-
----
-# Keeping code tidy with `pre-commit`
-
-- `pre-commit` is a tool that ensures certain checks on your file pass before a commit is accepted.
-- This could be a linting tool 
 
 ---
 #  `lazygit`
 
 - A terminal UI for using Git.
-- Nice if you think using a mouse takes time...
+- Nice if you're a touch-typer.
+- Other alternatives to GitHub Desktop: GitKraken, `gitui`, 
+
+---
+# The magic of `bisect`
+
+`git bisect` is actually overpowered...
+
+---
+# Keeping code tidy with `pre-commit`
+
+- `pre-commit` is a tool that ensures certain checks on your file pass before a commit is accepted.
+- This could be a linting tool. 
 
 ---
 # Keeping track of documents with Git
@@ -198,8 +202,6 @@ If you understand this, then you pretty much understand Git :)
 LaTeX is comfy.
 
 ---
-# Commit History for My Dissertation :)
 
 ![h:480 center](./pictures/dissertation-commit-log.PNG)
-
 

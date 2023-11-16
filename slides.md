@@ -151,7 +151,11 @@ Smaller commits make it easier to isolate problems.
 <!-- Demo goes here. -->
 
 ---
-# Cloneing
+# Cloning
+
+- Make a local copy of a remote repository
+- Transfer code you've written from one machine to another
+- Retrieve code from someone else that's available on GitHub
 
 ---
 # .gitignore
@@ -163,6 +167,12 @@ Smaller commits make it easier to isolate problems.
 ---
 # Branching
 
+- Allows you to create an "offshoot" of your repository
+- Keep the working code "safe" while you add something new to it
+
+![h:400 center](./pictures/branch.png)
+
+<!-- Demo if time allows -->
 
 ---
 # Overview
@@ -170,6 +180,10 @@ Smaller commits make it easier to isolate problems.
 ![h:400 center](./pictures/command-diagram.svg)
 
 If you understand this, then you pretty much understand Git :)
+
+---
+# Finding Code on GitHub
+
 
 ---
 
@@ -187,6 +201,8 @@ If you understand this, then you pretty much understand Git :)
 # The magic of `bisect`
 
 `git bisect` is actually overpowered...
+
+https://www.youtube.com/watch?v=P3ZR_s3NFvM
 
 ---
 # Keeping code tidy with `pre-commit`

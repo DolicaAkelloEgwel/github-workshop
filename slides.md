@@ -231,7 +231,7 @@ LaTeX is comfy.
 
 ---
 
-Slides: 
+Slides: bit.ly/3MPYIWu
 Creative Technology Lab: https://github.com/creativetechnologylab
 
 

@@ -177,6 +177,14 @@ Smaller commits make it easier to isolate problems.
 ---
 # Overview
 
+* You make a change to a file and _stage_ it in GitHub Desktop
+* You then _commit_ the changes, which creates a snapshot of your repository
+* You can then _push_ these changes to GitHub so that the code is on your GitHub account
+* By using _branches_ you can manage multiple different versions of your code
+* With _cloning_ to you get code made by others from GitHub and use it too
+---
+# Overview
+
 ![h:400 center](./pictures/command-diagram.svg)
 
 If you understand this, then you pretty much understand Git :)
@@ -220,4 +228,10 @@ LaTeX is comfy.
 ---
 
 ![h:480 center](./pictures/dissertation-commit-log.PNG)
+
+---
+
+Slides: 
+Creative Technology Lab: https://github.com/creativetechnologylab
+
 

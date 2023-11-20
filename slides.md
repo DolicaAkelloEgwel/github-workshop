@@ -21,12 +21,12 @@ img[alt~="center"] {
 ---
 # Why Use Version Control?
 
-- A better kind of backup
-- Review history of your changes
-- Restore older code versions, like an unlimited undo
-- Nothing commited to version control can be lost _unless you make it happen_
-- Saves you emailing files back and forth if you are working with others
-- Different people can make changes to the same code in parallel
+- A better kind of backup.
+- Review history of your changes.
+- Restore older code versions, like an unlimited undo.
+- Nothing commited to version control can be lost _unless you make it happen_.
+- Saves you emailing files back and forth if you are working with others.
+- Different people can make changes to the same code in parallel.
 
 <!-- Even if you're the only one doing the coding, there are still benefits to using Version Control. -->
 
@@ -46,18 +46,18 @@ There are alternatives to Git and there are alternatives to GitHub.
 ---
 # Creating a GitHub Account
 
-1. Go to github.com and click on "Sign up" in the top-right
-2. Follow the instructions to create an account
-3. Verify your email adddress with GitHub
-4. Configure 2FA
+1. Go to github.com and click on "Sign up" in the top-right.
+2. Follow the instructions to create an account.
+3. Verify your email adddress with GitHub.
+4. Configure 2FA.
 
 ---
 # Creating a Repo
 
-1. Open GitHub Desktop
-2. In the top-menu go to File and then click "New repository..."
-3. Give the repository a name and a description
-4. Set a local path for the repository
+1. Open GitHub Desktop.
+2. In the top-menu go to File and then click "New repository...".
+3. Give the repository a name and a description.
+4. Set a local path for the repository.
 
 <!-- A demo goes here. -->
 
@@ -66,8 +66,8 @@ There are alternatives to Git and there are alternatives to GitHub.
 
 Now let's create a simple text file and add two lines of text to it. This will cause a change to appear in GitHub Desktop.
 
-1. On the top-level menu go to Repository > Show in Explorer / Finder
-2. Create a text file and add two lines of random text to it
+1. On the top-level menu go to Repository > Show in Explorer / Finder.
+2. Create a text file and add two lines of random text to it.
 
 If you're on Mac you can use `touch a-text-file` to create an empty file. Then `echo "blahblahblah" >> a-text-file` should add something to the file. Do that a second time and you'll have a file with two lines of text in it.
 
@@ -106,7 +106,7 @@ Take a look at the History tab. You can now see the commit with its message. The
 ---
 # Changing / Removing Lines
 
-Now change the _second_ line of your file and see what happens in the Changes tab.
+Now change the _first_ line of your file and see what happens in the Changes tab.
 
 <!-- Give people a moment to do this before going to the next slide. -->
 
@@ -153,9 +153,9 @@ Smaller commits make it easier to isolate problems.
 ---
 # Cloning
 
-- Make a local copy of a remote repository
-- Transfer code you've written from one machine to another
-- Retrieve code from someone else that's available on GitHub
+- Make a local copy of a remote repository.
+- Transfer code you've written from one machine to another.
+- Retrieve code from someone else that's available on GitHub.
 
 ---
 # .gitignore
@@ -167,8 +167,8 @@ Smaller commits make it easier to isolate problems.
 ---
 # Branching
 
-- Allows you to create an "offshoot" of your repository
-- Keep the working code "safe" while you add something new to it
+- Allows you to create an "offshoot" of your repository.
+- Keep the working code "safe" while you attempt to add a new feature to it.
 
 ![h:400 center](./pictures/branch.png)
 
@@ -177,11 +177,11 @@ Smaller commits make it easier to isolate problems.
 ---
 # Overview
 
-* You make a change to a file and _stage_ it in GitHub Desktop
-* You then _commit_ the changes, which creates a snapshot of your repository
-* You can then _push_ these changes to GitHub so that the code is on your GitHub account
-* By using _branches_ you can manage multiple different versions of your code
-* With _cloning_ to you get code made by others from GitHub and use it too
+* You make a change to a file and _stage_ it in GitHub Desktop.
+* You then _commit_ the changes, which creates a snapshot of your repository.
+* You can then _push_ these changes to GitHub so that the code is on your GitHub account.
+* By using _branches_ you can manage multiple different versions of your code.
+* With _cloning_ to you get code made by others from GitHub and use it too.
 ---
 # Overview
 
@@ -231,7 +231,7 @@ LaTeX is comfy.
 
 ---
 
-Slides: bit.ly/3MPYIWu
-Creative Technology Lab: https://github.com/creativetechnologylab
+Slides: [bit.ly/3MPYIWu](https://bit.ly/3MPYIWu)
+Creative Technology Lab: [github.com/creativetechnologylab](https://github.com/creativetechnologylab)
 
 

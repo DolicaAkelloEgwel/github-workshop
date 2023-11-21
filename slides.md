@@ -21,23 +21,25 @@ img[alt~="center"] {
 ---
 # Why Use Version Control?
 
-- A better kind of backup.
 - Review history of your changes.
 - Restore older code versions, like an unlimited undo.
-- Nothing commited to version control can be lost _unless you make it happen_.
 - Saves you emailing files back and forth if you are working with others.
 - Different people can make changes to the same code in parallel.
 
 <!-- Even if you're the only one doing the coding, there are still benefits to using Version Control. -->
 
+![bg right](./pictures/undo.jpg)
+
 ---
 # What is Git and GitHub?
 
-Git: Version control tool to manage code history. Runs on the command line.
-GitHub: Hosting service for Git repositories.
-GitHub Desktop: A GUI for using Git commands.
+**Git**: Version control tool to manage code history. Runs on the command line.
+**GitHub**: Hosting service for Git repositories.
+**GitHub Desktop**: A GUI for using Git commands.
 
-There are alternatives to Git and there are alternatives to GitHub.
+* There are alternatives to Git and there are alternatives to GitHub.
+
+![bg left](./pictures/git-github.PNG)
 
 ---
 
@@ -182,12 +184,12 @@ Smaller commits make it easier to isolate problems.
 * You can then _push_ these changes to GitHub so that the code is on your GitHub account.
 * By using _branches_ you can manage multiple different versions of your code.
 * With _cloning_ to you get code made by others from GitHub and use it too.
----
+<!-- ---
 # Overview
 
 ![h:400 center](./pictures/command-diagram.svg)
 
-If you understand this, then you pretty much understand Git :)
+If you understand this, then you pretty much understand Git :) -->
 
 ---
 # Finding Code on GitHub

@@ -85,7 +85,6 @@ The Changes tab shows us what has changed in our files since the most recent com
 
 Now you can see that a change in our working directory has been detected in GitHub Desktop. 
 
-
 -->
 
 ---
@@ -110,7 +109,6 @@ Take a look at the History tab. You can now see your commit with its message. Th
 Now change the _first_ line of your text file and see what happens in the Changes tab.
 
 <!-- Give people a moment to do this before going to the next slide. -->
-
 
 <!-- Now we can see that a red line has appeared to indicate that something was removed, while a green line indicates that something was added. -->
 

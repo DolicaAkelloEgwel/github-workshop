@@ -163,6 +163,8 @@ Smaller commits make it easier to isolate problems.
 - It will no longer appear in the Changes tab unless it's removed from `.gitignore.`
 - The `.gitingore` file is also something you will want to track with version control.
 
+<!-- .DS_Store, Thumbs.db, large data files, etc -->
+
 ---
 # Ignoring Files
 Here's one example of why it would be useful to ignore a file...

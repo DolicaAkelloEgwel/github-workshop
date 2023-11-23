@@ -188,6 +188,12 @@ If you understand this, then you pretty much understand Git :) -->
 ---
 # Finding Code on GitHub
 
+- Topics: hhttps://github.com/topics/machine-learning
+- Searching by language: https://github.com/search?q=generative+language%3AProcessing&type=repositories&l=Processing
+
+<!-- Topics + users can be followed, which will then bring things up in your feed. -->
+<!-- GitHub then suggests things to you that it thinks might be up your alley. -->
+<!-- Search "generative" and select the language processing -->
 
 ---
 

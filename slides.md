@@ -83,7 +83,6 @@ The Changes tab shows us what has changed in our files since the most recent com
 
 Now you can see that a change in our working directory has been detected in GitHub Desktop. 
 
-Could do a comparison here with Git command line as well?
 
 -->
 
@@ -101,16 +100,13 @@ Once we've made some changes that we want to record, we can make a _commit_.
 
 <!-- ![h:400 center](./pictures/history.png) -->
 
-Take a look at the History tab. You can now see the commit with its message. The right hand pane will show us what was changed in this commit.
 
 ---
 # Changing / Removing Lines
 
-Now change the _first_ line of your file and see what happens in the Changes tab.
 
 <!-- Give people a moment to do this before going to the next slide. -->
 
-<!-- ![h:600 center](./pictures/line-change.png) -->
 
 <!-- Now we can see that a red line has appeared to indicate that something was removed, while a green line indicates that something was added. -->
 

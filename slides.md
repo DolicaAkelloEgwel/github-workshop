@@ -77,7 +77,7 @@ If you're on Mac you can use `touch a-text-file` to create an empty file. Then `
 
 # Changes Tab
 
-![h:520 center](./pictures/diff-add.png)
+![h:500 center](./pictures/diff-add.png)
 
 The Changes tab shows us what has changed in our files since the most recent commit.
 
@@ -156,13 +156,21 @@ Smaller commits make it easier to isolate problems.
 - Retrieve code from someone else that's available on GitHub.
 
 ---
-# .gitignore
+# Ignoring Files
 
-- A .gitignore file lets Git know that you don't want a certain file to be tracked with version control.
-- In GitHub Desktop we can right click a file and add it to .gitignore.
-- It will no longer appear in the Changes tab unless it's removed from .gitignore.
-- The .gitingore file is also something you will want to track with version control.
+- A `.gitignore` file lets Git know that you don't want a certain file to be tracked with version control.
+- In GitHub Desktop we can right click a file and add it to `.gitignore.`
+- It will no longer appear in the Changes tab unless it's removed from `.gitignore.`
+- The `.gitingore` file is also something you will want to track with version control.
+
 ---
+# Ignoring Files
+Here's one example of why it would be useful to ignore a file...
+
+https://github.com/search?q=api+key+removing&type=commits&s=&o=desc
+
+---
+
 # Branching
 
 - Allows you to create an "offshoot" of your repository.
@@ -192,6 +200,7 @@ If you understand this, then you pretty much understand Git :) -->
 
 - Topics: hhttps://github.com/topics/machine-learning
 - Searching by language: https://github.com/search?q=generative+language%3AProcessing&type=repositories&l=Processing
+- Looking at your feed
 
 <!-- Topics + users can be followed, which will then bring things up in your feed. -->
 <!-- GitHub then suggests things to you that it thinks might be up your alley. -->
@@ -201,13 +210,12 @@ If you understand this, then you pretty much understand Git :) -->
 
 # Extra: Cool Git Stuff
 
-
 ---
 #  `lazygit`
 
 - A terminal UI for using Git.
 - Nice if you're a touch-typer.
-- Other alternatives to GitHub Desktop: GitKraken, `gitui`, 
+- Other alternatives to GitHub Desktop: GitKraken, `gitui`, the terminal
 
 ---
 # The magic of `bisect`

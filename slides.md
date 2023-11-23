@@ -37,6 +37,7 @@ img[alt~="center"] {
 **GitHub**: Hosting service for Git repositories.
 **GitHub Desktop**: A GUI for using Git commands.
 
+<!-- There are alternatives to Git and there are alternatives to GitHub. -->
 
 ![bg left](./pictures/git-github.PNG)
 
@@ -68,6 +69,7 @@ img[alt~="center"] {
 Now let's create a simple text file and add two lines of text to it. This will cause a change to appear in GitHub Desktop.
 
 1. On the top-level menu go to Repository > Show in Explorer / Finder.
+2. Create a text file in this folder and add two lines of random text to it.
 
 If you're on Mac you can use `touch a-text-file` to create an empty file. Then `echo "blahblahblah" >> a-text-file` should add something to the file. Do that a second time and you'll have a file with two lines of text in it.
 
@@ -100,10 +102,12 @@ Once we've made some changes that we want to record, we can make a _commit_.
 
 <!-- ![h:400 center](./pictures/history.png) -->
 
+Take a look at the History tab. You can now see your commit with its message. The right hand pane will show us what was changed in this commit.
 
 ---
 # Changing / Removing Lines
 
+Now change the _first_ line of your text file and see what happens in the Changes tab.
 
 <!-- Give people a moment to do this before going to the next slide. -->
 

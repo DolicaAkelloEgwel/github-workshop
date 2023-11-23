@@ -217,7 +217,7 @@ If you understand this, then you pretty much understand Git :) -->
 
 - A terminal UI for using Git.
 - Nice if you're a touch-typer.
-- Other alternatives to GitHub Desktop: GitKraken, `gitui`, the terminal
+- Other alternatives to GitHub Desktop: GitKraken, `gitui`, VSCode intergration...
 
 ---
 # The magic of `bisect`

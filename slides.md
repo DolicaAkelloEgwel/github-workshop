@@ -103,7 +103,7 @@ Once we've made some changes that we want to record, we can make a _commit_.
 
 Take a look at the History tab. You can now see your commit with its message. The right hand pane will show us what was changed in this commit.
 
-![bg right](./pictures/pokemon.jpg)
+![h:400 center](./pictures/pokemon.jpg)
 
 ---
 # Changing / Removing Lines

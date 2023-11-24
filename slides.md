@@ -53,6 +53,8 @@ img[alt~="center"] {
 3. Verify your email adddress with GitHub.
 4. Configure 2FA.
 
+![bg right](./pictures/github-website.avif)
+
 ---
 # Creating a Repo
 
@@ -99,9 +101,9 @@ Once we've made some changes that we want to record, we can make a _commit_.
 ---
 # History
 
-<!-- ![h:400 center](./pictures/history.png) -->
-
 Take a look at the History tab. You can now see your commit with its message. The right hand pane will show us what was changed in this commit.
+
+![bg right](./pictures/pokemon.jpg)
 
 ---
 # Changing / Removing Lines
@@ -116,9 +118,11 @@ Now change the _first_ line of your text file and see what happens in the Change
 # Resetting a Change
 
 - You might change a file, then realise that this isn't actually a change you wanted.
-- If you haven't commited yet then you can correct this by resetting the file.
+- If you haven't commited yet then you can correct this by _resetting_ the file.
 - In GitHub Desktop this is done by right clicking the file in the Changes tab and clicking on "Discard changes..."
 - This will take the file back to the state it was in in the most recent commit.
+
+![bg left](./pictures/mistake-eraser.webp)
 
 ---
 # Amending Commits
@@ -154,6 +158,8 @@ Smaller commits make it easier to isolate problems.
 - Make a local copy of a remote repository.
 - Transfer code you've written from one machine to another.
 - Retrieve code from someone else that's available on GitHub.
+
+![bg right](./pictures/clones.jpg)
 
 ---
 # Ignoring Files
@@ -200,7 +206,7 @@ If you understand this, then you pretty much understand Git :) -->
 ---
 # Finding Code on GitHub
 
-- Topics: hhttps://github.com/topics/machine-learning
+- Topics: https://github.com/topics/machine-learning
 - Searching by language: https://github.com/search?q=generative+language%3AProcessing&type=repositories&l=Processing
 - Looking at your feed
 
@@ -219,12 +225,14 @@ If you understand this, then you pretty much understand Git :) -->
 - Nice if you're a touch-typer.
 - Other alternatives to GitHub Desktop: GitKraken, `gitui`, VSCode intergration...
 
+![bg left](./pictures/lazy-cat.jpg)
+
 ---
 # The magic of `bisect`
 
 `git bisect` is actually overpowered...
 
-https://www.youtube.com/watch?v=P3ZR_s3NFvM
+https://www.youtube.com/watch?v=capyZ2D9Yz0
 
 ---
 # Keeping code tidy with `pre-commit`

@@ -173,6 +173,7 @@ Smaller commits make it easier to isolate problems.
 
 ---
 # Ignoring Files
+
 Here's one example of why it would be useful to ignore a file...
 
 https://github.com/search?q=api+key+removing&type=commits&s=&o=desc

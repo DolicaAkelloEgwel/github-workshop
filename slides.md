@@ -257,4 +257,6 @@ LaTeX is comfy.
 Slides: [bit.ly/3MPYIWu](https://bit.ly/3MPYIWu)
 Creative Technology Lab: [github.com/creativetechnologylab](https://github.com/creativetechnologylab)
 
+Please give me your names for attendance!
+
 

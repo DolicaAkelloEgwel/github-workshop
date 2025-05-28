@@ -254,6 +254,28 @@ LaTeX is comfy.
 
 ---
 
+# Other CTH Workshops
+
+<style scoped>
+section {
+    font-size: 18px;
+}
+</style>
+
+## Physical Computing
++ Beginner Physical Computing
+## Creative Coding
++ Interactive Web with Javascript
++ Generative Design with Javascript
+## Projection Mapping
++ Introduction to Touchdesigner
++ Projection Mapping with Touchdesigner
+## Game Development / VR / AR
++ Introduction to Game Environment Design with Unreal Engine
++ Building Augmented Reality (AR) for Headsets
+
+---
+
 Creative Technology Lab: [github.com/creativetechnologylab](https://github.com/creativetechnologylab)
 Feedback Form: https://bit.ly/4aaagP4  
 

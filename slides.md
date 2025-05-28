@@ -79,7 +79,7 @@ If you're on Mac you can use `touch a-text-file` to create an empty file. Then `
 
 # Changes Tab
 
-![h:500 center](./pictures/diff-add.png)
+![h:400 center](./pictures/diff-add.png)
 
 The Changes tab shows us what has changed in our files since the most recent commit.
 
@@ -103,7 +103,7 @@ Once we've made some changes that we want to record, we can make a _commit_.
 
 Take a look at the History tab. You can now see your commit with its message. The right hand pane will show us what was changed in this commit.
 
-![h:500 center](./pictures/pokemon.jpg)
+![h:400 center](./pictures/pokemon.jpg)
 
 ---
 # Changing / Removing Lines
@@ -280,5 +280,4 @@ Creative Technology Lab: [github.com/creativetechnologylab](https://github.com/c
 Feedback Form: https://bit.ly/4aaagP4  
 
 Please give me your names for attendance!
-
 

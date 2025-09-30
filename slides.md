@@ -268,7 +268,7 @@ LaTeX is comfy.
 + Beginner Physical Computing (Arduino)
 + Interactive Graphics with Physical Computing (Arduino & Processing)
 
-![bg right](./pictures/lazy-cat.jpg)
+![bg right](./pictures/pcomp-cat.jpg)
 
 ---
 # Creative Coding
@@ -304,7 +304,7 @@ Image nicked from [here](https://www.reddit.com/r/generative/comments/wa56lz/my_
 + Python For Beginners
 + Generative AI with Python
 
-![bg right](./pictures/lazy-cat.jpg)
+![bg right](./pictures/gan-flowers.jpg)
 
 ---
 

@@ -70,10 +70,15 @@ img[alt~="center"] {
 
 Now let's create a simple text file and add two lines of text to it. This will cause a change to appear in GitHub Desktop.
 
-1. On the top-level menu go to Repository > Show in Explorer / Finder.
-2. Create a text file in this folder and add two lines of random text to it.
+---
+# Mac Users
 
-If you're on Mac you can use `touch a-text-file` to create an empty file. Then `echo "blahblahblah" >> a-text-file` should add something to the file. Do that a second time and you'll have a file with two lines of text in it.
+```
+echo "blah blah blah" >> a-text-file
+echo "blah blah blah" >> a-text-file
+```
+
+Hint: Press the up-arrow to repeat your previous terminal command.
 
 ---
 
@@ -256,23 +261,50 @@ LaTeX is comfy.
 
 # Other CTH Workshops
 
-<style scoped>
-section {
-    font-size: 18px;
-}
-</style>
+---
 
-## Physical Computing
-+ Beginner Physical Computing
-## Creative Coding
-+ Interactive Web with Javascript
-+ Generative Design with Javascript
-## Projection Mapping
+# Physical Computing
+
++ Beginner Physical Computing (Arduino)
++ Interactive Graphics with Physical Computing (Arduino & Processing)
+
+![bg right](./pictures/lazy-cat.jpg)
+
+---
+# Creative Coding
+
++ Interative Web with Javascript
++ Generative Design with JavaScript
+
+![bg left](./pictures/generative.png)
+
+Image nicked from [here](https://www.reddit.com/r/generative/comments/wa56lz/my_first_generative_art_using_p5js_called/).
+
+---
+
+# Projection Mapping & Touchdesigner
+
 + Introduction to Touchdesigner
 + Projection Mapping with Touchdesigner
-## Game Development / VR / AR
-+ Introduction to Game Environment Design with Unreal Engine
+
+![bg right](./pictures/projection-mapping.jpg)
+
+---
+
+# Game Development / VR / AR
+
++ Intro to Game Environment Design with Unreal Engine
 + Building Augmented Reality (AR) for Headsets
+
+![bg left](./pictures/intro-unreal.jpg)
+
+---
+# My Other Ones...
+
++ Python For Beginners
++ Generative AI with Python
+
+![bg right](./pictures/lazy-cat.jpg)
 
 ---
 

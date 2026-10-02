@@ -225,15 +225,6 @@ If you understand this, then you pretty much understand Git :) -->
 # Extra: Cool Git Stuff
 
 ---
-#  `lazygit`
-
-- A terminal UI for using Git.
-- Nice if you're a touch-typer.
-- Other alternatives to GitHub Desktop: GitKraken, `gitui`, VSCode intergration...
-
-![bg left](./pictures/lazy-cat.jpg)
-
----
 # The magic of `bisect`
 
 `git bisect` is actually overpowered...
@@ -266,7 +257,8 @@ LaTeX is comfy.
 # Physical Computing
 
 + Beginner Physical Computing (Arduino)
-+ Interactive Graphics with Physical Computing (Arduino & Processing)
++ Arduino: Building a Touch Sensor
++ Arduino: Kinetic Origami
 
 ![bg right](./pictures/pcomp-cat.jpg)
 
@@ -274,7 +266,7 @@ LaTeX is comfy.
 # Creative Coding
 
 + Interative Web with Javascript
-+ Generative Design with JavaScript
++ Hacking Media with Processing
 
 ![bg left](./pictures/generative.png)
 
@@ -286,6 +278,7 @@ Image nicked from [here](https://www.reddit.com/r/generative/comments/wa56lz/my_
 
 + Introduction to Touchdesigner
 + Projection Mapping with Touchdesigner
++ Advanced Touchdesigner
 
 ![bg right](./pictures/projection-mapping.jpg)
 
@@ -293,8 +286,9 @@ Image nicked from [here](https://www.reddit.com/r/generative/comments/wa56lz/my_
 
 # Game Development / VR / AR
 
-+ Intro to Game Environment Design with Unreal Engine
-+ Building Augmented Reality (AR) for Headsets
++ Introduction to Unreal Engine
++ Immersive Experiences with Virtual Reality
++ Creating Digital Twins with Metahuman
 
 ![bg left](./pictures/intro-unreal.jpg)
 
